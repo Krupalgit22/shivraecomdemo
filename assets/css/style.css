@@ -47724,4 +47724,178 @@ ul.mega-menu-item.parent-nav {
     margin-bottom: 0;
     font-size: 50px;
     line-height: 1.4;
+<<<<<<< HEAD
 }
+=======
+}  
+
+/* ==========================
+   WHY CHOOSE US SECTION
+========================== */
+.why-choose-section.chooseof {
+    background: black !important;
+    padding: 120px 0px !important;
+}
+/* .why-choose-section.chooseof {
+    background-color: #000 !important;
+    padding: 120px 0px!important;
+} */
+/* .why-choose-section {
+    background: #000 !important;
+    
+    /* overflow: hidden; */
+} */
+
+.section-heading {
+    margin-bottom: 70px;
+}
+
+.section-subtitle {
+    display: inline-block;
+    color: #ff2b2b;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.why-choose-section .section-title {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* ==========================
+   FEATURE BOX
+========================== */
+
+.feature-box {
+    position: relative;
+    text-align: center;
+    /* padding: 0 20px; */
+    height: 100%;
+}
+
+/* Vertical Divider Line */
+
+
+
+.feature-box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 1px;
+    height: 100%;
+    background: rgba(255,255,255,0.15);
+}
+.no-border::after {
+    display: none;
+}
+
+/* ==========================
+   IMAGE
+========================== */
+
+.feature-image {
+    margin-bottom: 25px;
+}
+
+.feature-image img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    transition: 0.3s ease;
+}
+
+.feature-box:hover .feature-image img {
+    transform: translateY(-5px);
+}
+
+/* ==========================
+   CONTENT
+========================== */
+
+.feature-box h4 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    min-height: 75px;
+}
+
+.feature-box p {
+    color: #b8b8b8;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* ==========================
+   LARGE SCREEN
+========================== */
+
+@media (max-width: 1199px) {
+
+    .feature-box::after {
+        display: none;
+    }
+
+    .feature-box {
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 12px;
+        padding: 30px 20px;
+    }
+
+    .feature-box h4 {
+        min-height: auto;
+    }
+}
+
+/* ==========================
+   TABLET
+========================== */
+
+@media (max-width: 991px) {
+
+    .section-title {
+        font-size: 42px;
+    }
+
+    .why-choose-section {
+        padding: 80px 0;
+    }
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width: 767px) {
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .feature-image img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-box h4 {
+        font-size: 22px;
+    }
+
+    .feature-box p {
+        font-size: 15px;
+    }
+} 
+.why-choose-section {
+    background: #000 !important;
+    padding: 120px 0px ;
+}
+>>>>>>> 6b353c9 (Added working process section and updated homepage)
