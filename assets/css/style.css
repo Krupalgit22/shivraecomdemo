@@ -47724,9 +47724,9 @@ ul.mega-menu-item.parent-nav {
     margin-bottom: 0;
     font-size: 50px;
     line-height: 1.4;
-<<<<<<< HEAD
+
 }
-=======
+
 }  
 
 /* ==========================
@@ -47744,7 +47744,7 @@ ul.mega-menu-item.parent-nav {
     background: #000 !important;
     
     /* overflow: hidden; */
-} */
+ */
 
 .section-heading {
     margin-bottom: 70px;
@@ -47898,4 +47898,33 @@ ul.mega-menu-item.parent-nav {
     background: #000 !important;
     padding: 120px 0px ;
 }
->>>>>>> 6b353c9 (Added working process section and updated homepage)
+
+/*----whats app---*/
+
+/* style.css */
+
+.whatsapp-float {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 40px;
+    right: 25px;
+    background-color: #25d366;
+    color: #fff !important;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 34px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebe5d;
+    color: #fff !important;
+    transform: scale(1.1);
+}
